@@ -26,6 +26,7 @@ public class WarningText : MonoBehaviour
         } else {
             GetComponent<TMP_Text>().text = "";
             timeActive = 0f;
+            isActive = false;
         }
     }
 }
